@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "DIN Next LT Pro";
+    src: url("https://db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.eot");
+    src: url("https://db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.svg#DIN Next LT Pro Regular")format("svg");
+    size-adjust: 105%; 
+}
+
+*, body {
+    font-family: 'DIN Next LT Pro', Roboto, Lato, sans-serif !important
+}
+h1, h2, h3, h4 {
+    color: #01426A;
+    font-weight: bold;
+}
+.Skin .MC .TextEntryBox, .Skin .TE .ESTB .InputText, .Skin .TE .FORM .InputText, .Skin .TE .FollowUp .InputText, .Skin .TE .ML .InputText, .Skin .TE .PW .InputText, .Skin .TE .SL .InputText, .Skin .TE textarea, .Skin input.TextEntryBox, .Skin input[type=password], .Skin input[type=search], .Skin input[type=text], .Skin textarea, .Skin button, .Skin input, .Skin select {
+    font-family: 'DIN Next LT Pro', Roboto, Lato, sans-serif !important}
+
+blue {
+    color: #01426A;
+}
