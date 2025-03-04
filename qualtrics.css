@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "DIN Next LT Pro";
     src: url("https://db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.eot");
     src: url("https://db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.eot?#iefix")format("embedded-opentype"),
@@ -7,17 +7,173 @@
     url("https://db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.svg#DIN Next LT Pro Regular")format("svg");
     size-adjust: 120%; 
+} */
+
+/* DIN Next LT Pro Font Family */
+
+/* Regular */
+@font-face {
+  font-family: "DINNextLTPro-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/mac-isp/styles@main/DIN%20Next%20LT%20Pro/DINNextLTPro-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  size-adjust: 120%;
+  font-display: swap;
+}
+
+/* Bold */
+@font-face {
+  font-family: "DINNextLTPro-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/mac-isp/styles@main/DIN%20Next%20LT%20Pro/DINNextLTPro-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  size-adjust: 120%;
+  font-display: swap;
+}
+
+/* Black */
+@font-face {
+  font-family: "DINNextLTPro-Black";
+  src: url("https://cdn.jsdelivr.net/gh/mac-isp/styles@main/DIN%20Next%20LT%20Pro/DINNextLTPro-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  size-adjust: 120%;
+  font-display: swap;
+}
+
+/* Black Italic */
+@font-face {
+  font-family: "DINNextLTPro-BlackItalic";
+  src: url("https://cdn.jsdelivr.net/gh/mac-isp/styles@main/DIN%20Next%20LT%20Pro/DINNextLTPro-BlackItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+  size-adjust: 120%;
+  font-display: swap;
+}
+
+/* Bold Condensed */
+@font-face {
+  font-family: "DINNextLTPro-BoldCondensed";
+  src: url("https://cdn.jsdelivr.net/gh/mac-isp/styles@main/DIN%20Next%20LT%20Pro/DINNextLTPro-BoldCondensed.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  size-adjust: 120%;
+  font-display: swap;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: "DINNextLTPro-BoldItalic";
+  src: url("https://cdn.jsdelivr.net/gh/mac-isp/styles@main/DIN%20Next%20LT%20Pro/DINNextLTPro-BoldItalic.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+  size-adjust: 120%;
+  font-display: swap;
+}
+
+/* Condensed */
+@font-face {
+  font-family: "DINNextLTPro-Condensed";
+  src: url("https://cdn.jsdelivr.net/gh/mac-isp/styles@main/DIN%20Next%20LT%20Pro/DINNextLTPro-Condensed.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+  size-adjust: 120%;
+  font-display: swap;
+}
+
+/* Heavy */
+@font-face {
+  font-family: "DINNextLTPro-Heavy";
+  src: url("https://cdn.jsdelivr.net/gh/mac-isp/styles@main/DIN%20Next%20LT%20Pro/DINNextLTPro-Heavy.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  size-adjust: 120%;
+  font-display: swap;
+}
+
+/* Heavy Italic */
+@font-face {
+  font-family: "DINNextLTPro-HeavyItalic";
+  src: url("https://cdn.jsdelivr.net/gh/mac-isp/styles@main/DIN%20Next%20LT%20Pro/DINNextLTPro-HeavyItalic.woff2") format("woff2");
+  font-weight: 800;
+  font-style: italic;
+  size-adjust: 120%;
+  font-display: swap;
+}
+
+/* Italic */
+@font-face {
+  font-family: "DINNextLTPro-Italic";
+  src: url("https://cdn.jsdelivr.net/gh/mac-isp/styles@main/DIN%20Next%20LT%20Pro/DINNextLTPro-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  size-adjust: 120%;
+  font-display: swap;
+}
+
+/* Light */
+@font-face {
+  font-family: "DINNextLTPro-Light";
+  src: url("https://cdn.jsdelivr.net/gh/mac-isp/styles@main/DIN%20Next%20LT%20Pro/DINNextLTPro-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  size-adjust: 120%;
+  font-display: swap;
+}
+
+/* Light Condensed */
+@font-face {
+  font-family: "DINNextLTPro-LightCondensed";
+  src: url("https://cdn.jsdelivr.net/gh/mac-isp/styles@main/DIN%20Next%20LT%20Pro/DINNextLTPro-LightCondensed.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  size-adjust: 120%;
+  font-display: swap;
+}
+
+/* Medium */
+@font-face {
+  font-family: "DINNextLTPro-Medium";
+  src: url("https://cdn.jsdelivr.net/gh/mac-isp/styles@main/DIN%20Next%20LT%20Pro/DINNextLTPro-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  size-adjust: 120%;
+  font-display: swap;
+}
+
+/* Medium Condensed */
+@font-face {
+  font-family: "DINNextLTPro-MediumCond";
+  src: url("https://cdn.jsdelivr.net/gh/mac-isp/styles@main/DIN%20Next%20LT%20Pro/DINNextLTPro-MediumCond.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: condensed;
+  size-adjust: 120%;
+  font-display: swap;
+}
+
+/* Medium Italic */
+@font-face {
+  font-family: "DINNextLTPro-MediumItalic";
+  src: url("https://cdn.jsdelivr.net/gh/mac-isp/styles@main/DIN%20Next%20LT%20Pro/DINNextLTPro-MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+  size-adjust: 120%;
+  font-display: swap;
 }
 
 *, body {
-    font-family: 'DIN Next LT Pro', Roboto, Lato, sans-serif !important
+    font-family: 'DINNextLTPro-Regular', Roboto, Lato, sans-serif !important
 }
 h1, h2, h3, h4 {
     color: #01426A;
     font-weight: bold;
 }
 .Skin .MC .TextEntryBox, .Skin .TE .ESTB .InputText, .Skin .TE .FORM .InputText, .Skin .TE .FollowUp .InputText, .Skin .TE .ML .InputText, .Skin .TE .PW .InputText, .Skin .TE .SL .InputText, .Skin .TE textarea, .Skin input.TextEntryBox, .Skin input[type=password], .Skin input[type=search], .Skin input[type=text], .Skin textarea, .Skin button, .Skin input, .Skin select {
-    font-family: 'DIN Next LT Pro', Roboto, Lato, sans-serif !important}
+    font-family: 'DINNextLTPro-Regular', Roboto, Lato, sans-serif !important}
 
 blue {
     color: #01426A;
