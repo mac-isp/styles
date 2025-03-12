@@ -181,3 +181,14 @@ a {
 blue {
     color: #01426A;
 }
+.button1 {
+    color: #FFFFFF;
+    background-color: #01426A;
+    width: auto;
+    height: auto;
+    padding: 2px, 5px;
+    corner-radius: 10px;
+}
+.button1:hover, .button1:after {
+    background-color: #71C5E8;
+}
